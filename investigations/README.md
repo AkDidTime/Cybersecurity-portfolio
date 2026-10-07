@@ -18,9 +18,9 @@ Each investigation is structured around an evidence-based workflow:
 
 | Investigation | Status | Focus |
 |---|---|---|
-| Sysmon Process Investigation | 🔎 Completed | Process creation and endpoint telemetry |
+| Sysmon Process Investigation | ✅ Completed | Process creation, parent-child relationships, PowerShell activity, endpoint telemetry|
 | Windows Event Log Investigation | 🚧 In Progress | Windows security events and authentication |
 | Brute Force Investigation | 🚧 Planned | Authentication failures and attack patterns |
 | Phishing Investigation | 🚧 Planned | Email analysis and indicators of compromise |
 
-Last investigation update - 9/10/2026
+Last investigation update - October 2026
