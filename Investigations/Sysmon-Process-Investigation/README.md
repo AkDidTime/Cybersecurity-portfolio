@@ -69,3 +69,90 @@ explorer.exe
 powershell.exe
     ↓
 conhost.exe
+```
+This represents a parent-child process relationship.
+
+explorer.exe launched powershell.exe, which subsequently spawned conhost.exe.
+
+Understanding these relationships is useful during endpoint investigations because unusual process chains can indicate suspicious execution.
+
+For example, a document application unexpectedly spawning PowerShell may warrant additional investigation.
+
+In this case, the observed process relationship was consistent with normal interactive activity.
+
+---
+
+# 3. PowerShell Analysis
+
+The PowerShell process was examined using the available Sysmon telemetry.
+
+The investigation considered:
+
+Parent process
+Process image
+Command line
+User context
+Integrity level
+Execution location
+Process relationships
+
+No suspicious command-line arguments or unusual execution context were identified.
+
+The PowerShell activity appeared to originate from normal interactive use through explorer.exe.
+
+---
+
+# 4. Indicator of Compromise Analysis
+
+The available telemetry was reviewed for potential indicators of compromise.
+
+The investigation did not identify:
+
+Suspicious command-line activity
+An unusual parent process
+Unexpected process relationships
+Other obvious indicators of compromise
+
+The observed processes were consistent with legitimate Windows activity.
+
+---
+
+# 5. Findings
+
+The investigation established the following process relationship:
+```
+explorer.exe
+    ↓
+powershell.exe
+    ↓
+conhost.exe
+```
+The process hierarchy and available execution context did not indicate malicious activity.
+
+The PowerShell execution was assessed as consistent with legitimate interactive activity.
+
+---
+
+# 7. Skills Demonstrated
+Sysmon
+Windows Event Logs
+PowerShell
+Process creation analysis
+Parent-child process relationships
+Command-line analysis
+Endpoint telemetry
+IOC analysis
+Security investigation
+Evidence-based assessment
+Technical documentation
+
+---
+
+# 6. Conclusion
+
+The observed PowerShell execution was consistent with legitimate interactive activity.
+
+The process tree showed explorer.exe launching PowerShell, which in turn spawned conhost.exe. No suspicious command line, unusual parent process, or other indicators of compromise were identified during the investigation.
+
+The investigation demonstrated how Sysmon process creation telemetry can be used to analyse process relationships and provide endpoint context when assessing potentially suspicious activity.
+
