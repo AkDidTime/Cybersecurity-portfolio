@@ -83,12 +83,14 @@ My goal is to develop the ability to investigate security events from **initial 
 
 ### Cybersecurity Labs & Development
 
+(not completed yet)
 * **Wazuh**
 * **Splunk**
 * **Sysmon**
 * **Wireshark**
 * **Linux**
 * **Git & GitHub**
+  
 * **Python**
 
 I'm continuing to expand this toolkit through hands-on labs, investigations, and security-focused projects.
@@ -346,23 +348,6 @@ As projects are completed, they will be added to this repository with supporting
 
 ---
 
-# 🎯 Career Goal
-
-My goal is to transition from **IT Support into a SOC Analyst / Cybersecurity role**.
-
-I want to combine my existing experience in:
-
-**Endpoint Management · Troubleshooting · PowerShell · Remote Administration · Technical Support**
-
-with developing cybersecurity capabilities in:
-
-**Security Monitoring · Log Analysis · Threat Detection · Incident Investigation · Threat Hunting · Incident Response**
-
-My IT Support experience has given me a strong understanding of how endpoints, users, operating systems, and technical environments operate in practice.
-
-I'm now building on that foundation by learning how to identify, investigate, and respond to security-related activity.
-
----
 
 # 📌 Portfolio Roadmap
 
@@ -378,8 +363,6 @@ As I continue developing my skills, this repository will grow to include:
 * 🛡️ MITRE ATT&CK mappings
 * ⚙️ Security automation projects
 * 📚 Technical notes and learning documentation
-
-Completed projects will include supporting documentation so that the portfolio demonstrates not only **what I learned**, but how I **approached problems, analysed evidence, reached conclusions, and communicated findings**.
 
 ---
 
