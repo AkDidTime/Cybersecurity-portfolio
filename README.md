@@ -1,4 +1,4 @@
-# Hi, my name is Ayan Ahmed 👋
+# Ayan Ahmed's Portfolio
 
 ### Aspiring SOC Analyst | Cybersecurity | IT Support
 
