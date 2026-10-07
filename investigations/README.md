@@ -22,3 +22,5 @@ Each investigation is structured around an evidence-based workflow:
 | Windows Event Log Investigation | 🚧 In Progress | Windows security events and authentication |
 | Brute Force Investigation | 🚧 Planned | Authentication failures and attack patterns |
 | Phishing Investigation | 🚧 Planned | Email analysis and indicators of compromise |
+
+Last investigation update - 9/10/2026
