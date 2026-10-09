@@ -99,7 +99,7 @@ I'm continuing to expand this toolkit through hands-on labs, investigations, and
 
 # 📂 Cybersecurity Portfolio
 
-This portfolio is organised around practical investigations and security projects rather than purely theoretical coursework.
+This portfolio is organised around practical investigations and security projects.
 
 ## 🔎 Completed Investigations
 
@@ -147,6 +147,37 @@ The investigation demonstrated how **process relationships and endpoint telemetr
 
 ---
 
+### Windows Event Log Investigation
+
+Performed a hands-on authentication investigation using **Windows Security Event Logs** and PowerShell to analyse successful and failed logon activity.
+
+The investigation focused on:
+
+* Analysing **Event ID 4624 — Successful Logon** and **Event ID 4625 — Failed Logon**
+* Extracting authentication data using PowerShell and XML
+* Investigating Windows logon types
+* Examining account, process, and source IP information
+* Reviewing service logons and cached interactive logons
+* Checking for failed authentication attempts and potential remote logons
+* Assessing whether observed activity appeared suspicious or legitimate
+* Documenting investigation findings
+
+### Key Findings
+
+The successful logon events examined were consistent with normal Windows authentication activity, including service logons, cached interactive logons, and workstation unlocks.
+
+No **Event ID 4625 — Failed Logon** events were returned by the query, and no Logon Type 3 or Type 10 events were identified in the sample of 200 successful logons examined. No clear indicators of compromise were identified in the available evidence.
+
+The investigation demonstrated how **Windows authentication logs can be used to establish context around logon activity, identify potential anomalies, and support evidence-based security assessments**.
+
+### Tools Used
+
+* Windows Security Event Logs
+* Windows PowerShell
+* Windows Event Viewer
+
+---
+
 # 🚧 Projects In Progress
 
 ## SOC Home Lab
@@ -162,23 +193,6 @@ The lab is focused on:
 * Detection engineering
 * Incident investigation
 * Security monitoring workflows
-
----
-
-## Windows Event Log Investigation
-
-Developing investigations around Windows security telemetry to understand normal and potentially suspicious system activity.
-
-Areas of investigation include:
-
-* Authentication activity
-* Failed and successful logins
-* Suspicious processes
-* Account activity
-* Security events
-* Indicators of potential compromise
-* Event timelines
-* Investigation findings
 
 ---
 
